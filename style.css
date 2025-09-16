@@ -25,7 +25,8 @@ body {
   height: 50px; /* size control */
   width: 100px;
   padding: 0;
-  display: block;
+  margin: 0;
+  position: fixed;
 }
 
 /* Center Menu */
@@ -175,6 +176,7 @@ body {
 }
 .img1 {
   width: 500px;
+
 }
 .Smarter {
   display: flex;
