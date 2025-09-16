@@ -14,12 +14,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 10px 50px; */
   background: #fff;
   border-bottom: 1px solid #eee;
 }
-
-/* Logo */
 /* Logo Image */
 .logo img {
   height: 50px; /* size control */
@@ -27,6 +24,7 @@ body {
   padding: 0;
   margin: 0;
   position: fixed;
+  z-index: 999;
 }
 
 /* Center Menu */
@@ -324,7 +322,7 @@ body {
   color: #374151;
   margin-bottom: 24px;
 }
-
+    /* position: fixed; */
 .security-btn {
   display: inline-block;
   margin-bottom: 10PX;
@@ -417,6 +415,7 @@ body {
    .menu-toggle {
     display: block;
     padding-left: 200px;
+    
   }
 .btn-demo {display: none;
 }
